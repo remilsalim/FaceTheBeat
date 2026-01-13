@@ -10,11 +10,27 @@ const icons = {
     Leaf,
 };
 
-const MoodSelector = ({ currentMood, onMoodChange, isAuto, onToggleAuto }) => {
+const MoodSelector = ({ currentMood, confidence, onMoodChange, isAuto, onToggleAuto }) => {
     return (
         <div className="mood-selector glass">
             <div className="selector-header">
-                <h3>Current Mood: <span className="highlight">{currentMood.toUpperCase()}</span></h3>
+                <div className="mood-info">
+                    <h3>Current Mood: <span className="highlight">{currentMood.toUpperCase()}</span></h3>
+                    {confidence > 0 && (
+                        <div className="confidence-container">
+                            <div className="confidence-label">Intensity: {confidence}%</div>
+                            <div className="confidence-bar-bg">
+                                <div
+                                    className="confidence-bar-fill"
+                                    style={{
+                                        width: `${confidence}%`,
+                                        background: MOOD_CONFIG[currentMood]?.color || 'white'
+                                    }}
+                                />
+                            </div>
+                        </div>
+                    )}
+                </div>
                 <button
                     className={`toggle-btn ${isAuto ? 'active' : ''}`}
                     onClick={onToggleAuto}

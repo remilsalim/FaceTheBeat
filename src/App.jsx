@@ -7,11 +7,16 @@ import './App.css';
 
 function App() {
     const [mood, setMood] = useState('neutral');
+    const [confidence, setConfidence] = useState(0);
     const [isAuto, setIsAuto] = useState(true);
 
-    const handleEmotionDetect = (newMood) => {
-        if (isAuto && newMood !== mood) {
-            setMood(newMood);
+    const handleEmotionDetect = ({ mood: newMood, confidence: newConfidence }) => {
+        if (isAuto) {
+            setMood(prev => {
+                if (prev !== newMood) return newMood;
+                return prev;
+            });
+            setConfidence(newConfidence);
         }
     };
 
@@ -29,9 +34,11 @@ function App() {
                     <WebcamFeed isAuto={isAuto} onEmotionDetect={handleEmotionDetect} />
                     <MoodSelector
                         currentMood={mood}
+                        confidence={confidence}
                         onMoodChange={(m) => {
                             setMood(m);
-                            setIsAuto(false); // Manual override pauses AI
+                            setConfidence(100); // Manual pick is 100% intentional
+                            setIsAuto(false);
                         }}
                         isAuto={isAuto}
                         onToggleAuto={() => setIsAuto(!isAuto)}

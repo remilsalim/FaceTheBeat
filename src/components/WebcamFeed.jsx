@@ -51,7 +51,7 @@ const WebcamFeed = ({ isAuto, onEmotionDetect }) => {
                     if (detections && detections.length > 0) {
                         const expressions = detections[0].expressions;
                         // Get the expression with the highest probability
-                        const primaryEmotion = Object.entries(expressions).reduce((a, b) => (a[1] > b[1] ? a : b))[0];
+                        const [primaryEmotion, confidence] = Object.entries(expressions).reduce((a, b) => (a[1] > b[1] ? a : b));
 
                         // Map face-api emotions to our internal moods
                         let mappedMood = primaryEmotion;
@@ -61,15 +61,18 @@ const WebcamFeed = ({ isAuto, onEmotionDetect }) => {
                         // We only care about happy, sad, angry, surprised, neutral
                         const validMoods = ['happy', 'sad', 'angry', 'surprised', 'neutral'];
                         if (validMoods.includes(mappedMood)) {
-                            onEmotionDetect(mappedMood);
+                            onEmotionDetect({
+                                mood: mappedMood,
+                                confidence: Math.round(confidence * 100)
+                            });
                         }
                     }
                 }
-            }, 1500); // 1.5s interval
+            }, 800); // 0.8s interval for smoother live updates
         }
 
         return () => clearInterval(interval);
-    }, [modelsLoaded, isAuto]);
+    }, [modelsLoaded, isAuto, onEmotionDetect]);
 
     return (
         <div className="webcam-container glass">
