@@ -7,7 +7,7 @@ const MusicPlayer = ({ mood }) => {
     const [visibleSongs, setVisibleSongs] = useState([]);
 
     // Function to get random subset of songs
-    const getRandomSongs = (pool, count = 5) => {
+    const getRandomSongs = (pool, count = 6) => {
         const shuffled = [...pool].sort(() => 0.5 - Math.random());
         return shuffled.slice(0, count);
     };
