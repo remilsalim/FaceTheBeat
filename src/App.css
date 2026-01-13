@@ -26,6 +26,14 @@ header h1 {
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
+.tm {
+    font-size: 0.8rem;
+    vertical-align: super;
+    margin-left: 2px;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
 .subtitle {
     font-size: 1rem;
     opacity: 0.9;
@@ -402,6 +410,46 @@ footer {
     background: rgba(0, 0, 0, 0.2);
     padding: 0.5rem 1rem;
     border-radius: 99px;
+    margin-bottom: 0.8rem;
+}
+
+.trademark-branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    opacity: 0.6;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.trademark-branding .author {
+    font-weight: 800;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.trademark-branding .by {
+    font-style: italic;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+    margin-left: 0.2rem;
+}
+
+.github-link:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .error-message {

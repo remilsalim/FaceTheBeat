@@ -3,6 +3,7 @@ import WebcamFeed from './components/WebcamFeed';
 import MusicPlayer from './components/MusicPlayer';
 import MoodSelector from './components/MoodSelector';
 import { MOOD_CONFIG } from './constants';
+import { Github } from 'lucide-react';
 import './App.css';
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
     return (
         <div className="app-wrapper" style={{ '--dynamic-bg': currentConfig.color }}>
             <header>
-                <h1>Face The Beat</h1>
+                <h1>Face The Beat<span className="tm">™</span></h1>
                 <p className="subtitle">Music that matches your mood, powered by AI.</p>
             </header>
 
@@ -54,6 +55,20 @@ function App() {
                 <p className="privacy-note">
                     🔒 <strong>Privacy:</strong> Everything runs locally in your browser. No video, images, or data are stored or sent to any server.
                 </p>
+                <div className="trademark-branding">
+                    <span className="copyright">© 2026 Face The Beat</span>
+                    <span className="by">by</span>
+                    <span className="author">Remil Salim</span>
+                    <a
+                        href="https://github.com/remilsalim/FaceTheBeat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="github-link"
+                        title="View on GitHub"
+                    >
+                        <Github size={16} />
+                    </a>
+                </div>
             </footer>
         </div>
     );
