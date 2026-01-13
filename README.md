@@ -2,8 +2,6 @@
 
 **Face The Beat** is an emotion-aware music discovery app that uses real-time AI to match Malayalam music to your facial expressions. Built with React and `face-api.js`, it offers a personalized and privacy-focused musical journey.
 
-![App Preview](https://github.com/remilsalim/FaceTheBeat/blob/main/public/preview.png?raw=true) 
-
 ## ✨ Features
 
 - **Real-Time Emotion Detection**: Analyzes your facial expressions every 1.5 seconds using local AI models (`face-api.js`).
@@ -51,4 +49,5 @@ Face Analysis is performed entirely on the client-side. The app does not record 
 
 ---
 Made with ❤️ by Remil Salim
+
 
