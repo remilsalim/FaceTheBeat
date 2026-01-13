@@ -20,7 +20,7 @@ function App() {
     return (
         <div className="app-wrapper" style={{ '--dynamic-bg': currentConfig.color }}>
             <header>
-                <h1>VibeCheck AI</h1>
+                <h1>Face The Beat</h1>
                 <p className="subtitle">Music that matches your mood, powered by AI.</p>
             </header>
 
