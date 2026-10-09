@@ -51,56 +51,56 @@ export const PLAYLISTS = {
 export const MOOD_CONFIG = {
     happy: {
         songs: [
-            { title: 'Jimikki Kammal', artist: 'Velipadinte Pusthakam' },
-            { title: 'Kudukku', artist: 'Love Action Drama' },
-            { title: 'Karutha Penne', artist: 'Thenmavin Kombathu' },
-            { title: 'Thaalatherichavar', artist: 'Romancham' },
-            { title: 'Scene Mone', artist: 'Romancham' },
-            { title: 'Aasa Kooda', artist: 'Sushin Shyam' },
-            { title: 'Shinkari Melam', artist: 'Classic' },
-            { title: 'Lajjavathiye', artist: '4 The People' },
-            { title: 'Sundari Laila', artist: '2018' },
-            { title: 'Ollulleru', artist: 'Ajagajantharam' },
-            { title: 'Pistah', artist: 'Neram' },
-            { title: 'Maanam Thudukkanu', artist: 'Aaraattu' },
-            { title: 'Enne Thallendamma', artist: 'Thallumaala' },
-            { title: 'Ole Mele', artist: 'Thallumaala' },
-            { title: 'Parudeesa', artist: 'Bheeshma Parvam' },
-            { title: 'Aarambham', artist: 'Thallumaala' },
-            { title: 'Theythaka', artist: 'Ustad Hotel' },
-            { title: 'Ghora Ghora', artist: 'Big B' },
-            { title: 'LavaKusha Ayyappantamma', artist: 'Lava Kusha' },
-            { title: 'Rathipushpam', artist: 'Bheeshma Parvam' },
-            { title: 'Chemmanam', artist: 'Amen' },
-            { title: 'Thani Lokah', artist: 'Lokah' },
-            { title: 'Chatha Pacha', artist: 'Chatha Pacha' },
-            { title: 'Kiliye Kiliye', artist: 'Afrobeat Mix' },
-            { title: 'Monica', artist: 'Monica' },
-            { title: 'Turbo Jose', artist: 'Turbo' },
-            { title: 'Bhoom Chikk Ba Ba', artist: 'Azhakiya Ravanan' },
-            { title: 'Pala Palli', artist: 'Kaduva' },
-            { title: 'Kannilu Kannilu', artist: 'Lucifer' },
-            { title: 'Thiru Thiru', artist: 'Kaduva' },
-            { title: 'Aadharanjali', artist: 'Romancham' },
-            { title: 'Dhoom Dhaam', artist: 'Dhoom Dhaam' },
-            { title: 'Pattuduthu Vannathum', artist: 'Mix' },
-            { title: 'Thanananana Penne', artist: 'Upbeat' },
-            { title: 'Paranne', artist: 'Koode' },
-            { title: 'Tha Na Na', artist: 'Mix' },
-            { title: 'Dhrithangapulakithan', artist: 'Mix' },
-            { title: 'Nee Njangade', artist: 'Mix' },
-            { title: 'Tapp Tapp', artist: 'Mix' },
-            { title: 'Illuminati', artist: 'Aavesham' },
-            { title: 'Kalapakkaara', artist: 'King of Kotha' },
-            { title: 'Armadham', artist: 'Aavesham' },
-            { title: 'Malabari Banger', artist: 'Dabzee' },
-            { title: 'SAMBAR', artist: 'ThirumaLi' },
-            { title: 'Kallu Kudiyan Anthem', artist: 'Classic Mass' },
-            { title: 'Freak Penne', artist: 'Oru Adaar Love' },
-            { title: 'Appalaale', artist: 'Kanthari' },
-            { title: 'Entammede Jimikki', artist: 'Hit' },
-            { title: 'Kaathirunnitumn', artist: 'Mix' },
-            { title: 'Sundari', artist: 'Hebah' },
+            { title: "Jimikki Kammal", artist: "Vineeth Sreenivasan, Renjith Unni", genre: "Folk-pop / Dance" },
+            { title: "Entammede Jimikki Kammal", artist: "Vineeth Sreenivasan, Renjith Unni", genre: "Folk-pop / Upbeat" },
+            { title: "Appangal Embadum", artist: "Anna Katharina Valayil", genre: "Folk / Feel-good" },
+            { title: "Pistah", artist: "Shabareesh Varma", genre: "Dance / Comedy" },
+            { title: "Thudakkam Mangalyam", artist: "Vijay Yesudas, Sachin Warrier, Divya S. Menon", genre: "Folk-pop / Celebratory" },
+            { title: "Kudukku", artist: "Vineeth Sreenivasan", genre: "Dance-pop" },
+            { title: "Kalippu", artist: "Shabareesh Varma", genre: "Folk-rock / Upbeat" },
+            { title: "Scene Contra", artist: "Shabareesh Varma", genre: "Rap / Folk-pop" },
+            { title: "Parudeesa", artist: "Sreenath Bhasi", genre: "Rock / Energetic" },
+            { title: "Illuminati", artist: "Dabzee", genre: "Rap / Dance" },
+            { title: "Aaradhike", artist: "Sooraj Santhosh, Madhuvanthi Narayan", genre: "Romantic melody" },
+            { title: "Malare", artist: "Vijay Yesudas", genre: "Romantic melody" },
+            { title: "Pavizha Mazha", artist: "K. S. Harisankar", genre: "Romantic melody" },
+            { title: "Darshana", artist: "Hesham Abdul Wahab, Darshana Rajendran", genre: "Romantic pop" },
+            { title: "Onakka Munthiri", artist: "Divya Vineeth", genre: "Feel-good / Romantic pop" },
+            { title: "Puthiyoru Pathayil", artist: "Nazriya Nazim, Sushin Shyam", genre: "Indie-pop / Melodic" },
+            { title: "Uyiril Thodum", artist: "Sooraj Santhosh, Anne Amie", genre: "Romantic melody" },
+            { title: "Cherathukal", artist: "Sithara Krishnakumar, Sushin Shyam", genre: "Soft melody" },
+            { title: "Thane Pookum", artist: "K. S. Harisankar", genre: "Romantic melody" },
+            { title: "Lailakame", artist: "Haricharan", genre: "Romantic pop" },
+            { title: "Kannil", artist: "Sooraj Santhosh, Shweta Mohan", genre: "Romantic melody" },
+            { title: "Uyarum", artist: "Gowry Lekshmi", genre: "Indie-pop / Uplifting" },
+            { title: "Then Kiliye", artist: "Vineeth Sreenivasan", genre: "Feel-good melody" },
+            { title: "Pularaan Neram", artist: "Sooraj Santhosh", genre: "Feel-good / Acoustic" },
+            { title: "Kinavu Kondu", artist: "Rex Vijayan, Imam Majboor", genre: "Indie / Mellow" },
+            { title: "Thaniye", artist: "Sushin Shyam", genre: "Indie-pop / Mellow" },
+            { title: "Manickyachirakulla", artist: "Bijibal", genre: "Folk / Feel-good" },
+            { title: "Olu", artist: "Sid Sriram", genre: "Romantic melody" },
+            { title: "Maane", artist: "Gowry Lekshmi", genre: "Indie-pop" },
+            { title: "Neela Nilave", artist: "Kapil Kapilan", genre: "Romantic pop" },
+            { title: "Darling Darling", artist: "M. G. Sreekumar, Sujatha Mohan", genre: "Romantic pop" },
+            { title: "Karimizhi Kuruviye", artist: "Devanand, Sujatha Mohan", genre: "Romantic melody" },
+            { title: "Chingamasam Vannu Chernnal", artist: "Shankar Mahadevan, Rimi Tomy", genre: "Festive / Folk-pop" },
+            { title: "Marannittumenthino", artist: "M. G. Sreekumar", genre: "Romantic melody" },
+            { title: "Oru Rajamalli", artist: "M. G. Sreekumar", genre: "Romantic melody" },
+            { title: "Pramadavanam", artist: "K. J. Yesudas", genre: "Classical / Devotional melody" },
+            { title: "Devakanyaka", artist: "K. J. Yesudas", genre: "Romantic melody" },
+            { title: "Ponnambili Pottum Thottu", artist: "M. G. Sreekumar, Sujatha Mohan", genre: "Romantic melody" },
+            { title: "Aayiram Kannumayi", artist: "K. J. Yesudas, K. S. Chithra", genre: "Soft melody" },
+            { title: "Poomaname", artist: "K. J. Yesudas", genre: "Romantic melody" },
+            { title: "Maleyam Marodalinju", artist: "M. G. Sreekumar", genre: "Folk-pop" },
+            { title: "Mizhiyariyaathe", artist: "Sujatha Mohan", genre: "Romantic melody" },
+            { title: "Minnalvala", artist: "Artist credit to verify", genre: "Modern film song" },
+            { title: "Aethu Kari Raavilum", artist: "Haricharan", genre: "Romantic melody" },
+            { title: "Thattathin Marayathe", artist: "Sachin Warrier", genre: "Romantic pop" },
+            { title: "Anuraga Vilochananayi", artist: "Shreya Ghoshal, V. Sreekumar", genre: "Romantic melody" },
+            { title: "Mazhaye Thoomazhaye", artist: "Haricharan", genre: "Romantic melody" },
+            { title: "Aalolam", artist: "Sithara Krishnakumar, Vineeth Sreenivasan", genre: "Feel-good melody" },
+            { title: "Sreeraagamo", artist: "K. J. Yesudas", genre: "Classical / Melodic" },
+            { title: "Enthavo", artist: "Sooraj Santhosh", genre: "Indie-pop / Feel-good" }
         ],
         message: 'ഉങ്ക സ്‌മൈൽ ക്യൂട്ട് ആർക്!!',
         color: 'linear-gradient(135deg, #f6d365 0%, #fda085 100%)',
@@ -108,59 +108,312 @@ export const MOOD_CONFIG = {
     },
     sad: {
         songs: [
-            { title: 'Nee Himamazhayayi', artist: 'Edakkad Battalion 06' },
-            { title: 'Akasham Pole', artist: 'Bheeshma Parvam' },
-            { title: 'Azhalinte Azhangalil', artist: 'Ayalum Njanum Thammil' },
-            { title: 'Mazhaye', artist: 'James & Alice' },
-            { title: 'Poomaname', artist: 'Nirakkoottu' },
-            { title: 'Khaalbinakame', artist: 'Meow' },
-            { title: 'Nilave', artist: 'Spanish Masala' },
-            { title: 'Mele Mevum', artist: 'Classic' },
-            { title: 'Aakasham Pole', artist: 'Melody' },
-            { title: 'Amme Nee Aranennu', artist: 'Soulful' },
-            { title: 'Mazhamegham', artist: 'Rainy Mix' },
-            { title: 'Lost Love', artist: 'Abhilasham' },
-            { title: 'En Uyire', artist: 'Melody' },
-            { title: 'Aayiram Chiraathukal', artist: '2018' },
-            { title: 'Thoraathe (Reprise)', artist: 'Sad Version' },
-            { title: 'Thiramaalayaay', artist: 'Oh Meri Laila' },
-            { title: 'Ithile Thiraye', artist: 'ID - The Fake' },
-            { title: 'Akalumbol', artist: 'Mazhayathu' },
-            { title: 'Irul Veenurugum', artist: 'Soulful' },
-            { title: 'Manju Kaalam', artist: 'Finals' },
-            { title: 'Marala', artist: 'Oshana' },
-            { title: 'Neerume Kattum', artist: 'Sad' },
-            { title: 'Oru Pakalin', artist: 'Sad' },
-            { title: 'Neeyam Sooryan', artist: 'Sad' },
-            { title: 'Ni Neela vaanam', artist: 'Sad' },
-            { title: 'En Jeevane', artist: 'Devadoothan' },
-            { title: 'Aatmavil', artist: 'Mazhayethum Munpe' },
-            { title: 'Akaleyanengilum', artist: 'Praja' },
-            { title: 'Attirambil', artist: 'Mannar Mathai Speaking' },
-            { title: 'Ennu Varum Nee', artist: 'Kannaki' },
-            { title: 'Gopike', artist: 'Nandanam' },
-            { title: 'Hrudaya Sakhi', artist: 'Vellithira' },
-            { title: 'Kadalkkaattin', artist: 'Friends' },
-            { title: 'Kalippattamai', artist: 'Kalippaattom' },
-            { title: 'Kathiripoo', artist: 'Krishnagudiyil Oru Pranayakalathu' },
-            { title: 'Marakkam', artist: 'Swapnakkoodu' },
-            { title: 'Mayajaalame', artist: 'Sarvam Maya' },
-            { title: 'Malare Reprise', artist: 'Premam' },
-            { title: 'Mandhara Malaril', artist: 'Sad' },
-            { title: 'Varuvaanillaarume', artist: 'Manichithrathazhu' },
-            { title: 'Kanneer Poovinte', artist: 'Kireedam' },
-            { title: 'Poonkaattinodum', artist: 'Sad' },
-            { title: 'Thaliraninjoru Kilimarathile', artist: 'Sad' },
-            { title: 'Manju mazha', artist: 'Aagathan' },
-            { title: 'Akale', artist: 'Akale' },
-            { title: 'Thaniye Mizhikal', artist: 'Guppy' },
-            { title: 'Hridayathin Niramaayi', artist: 'Sad' },
-            { title: 'Shyamambaram', artist: 'Sad' },
-            { title: 'Nilaavil Ellame', artist: 'Sad' },
-            { title: 'Jupiter Mazha', artist: 'Sad' },
-            { title: 'Malare Ninne', artist: 'Premam' },
-            { title: 'Poomuthole', artist: 'Joseph' },
-            { title: 'Manjal Prasadavum', artist: 'Nakhakshathangal' },
+            // Melancholy — 20 songs
+            {
+                title: "Nee Himamazhayayi",
+                artist: "K. S. Harisankar, Nithya Mammen",
+                genre: "Melancholic Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Azhalinte Azhangalil",
+                artist: "Nikhil Mathew",
+                genre: "Melancholic Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Mazhaye Mazhaye",
+                artist: "Karthik, Abhaya Hiranmayi",
+                genre: "Soft Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Aakasham Pole",
+                artist: "Kapil Kapilan, Hamsika Iyer",
+                genre: "Emotional Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Thaniye Mizhikal",
+                artist: "Sooraj Santhosh, Vishnu Vijay",
+                genre: "Melancholic Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Akale",
+                artist: "Karthik",
+                genre: "Soft Pop",
+                mood: "melancholy"
+            },
+            // Verify exact recording and singer before publishing.
+            {
+                title: "Irul Veenurugum",
+                artist: "",
+                genre: "Melancholic Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Manju Mazha",
+                artist: "",
+                genre: "Soft Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Poonkaattinodum",
+                artist: "K. J. Yesudas, S. Janaki",
+                genre: "Nostalgic Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Nilaavil Ellame",
+                artist: "",
+                genre: "Dreamy Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Aayiram Chiraathukal",
+                artist: "Shaan Rahman",
+                genre: "Emotional Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Thoraathe",
+                artist: "",
+                genre: "Indie / Melancholic",
+                mood: "melancholy"
+            },
+            {
+                title: "Kadalkkaattin",
+                artist: "",
+                genre: "Soft Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Shyamambaram",
+                artist: "",
+                genre: "Melancholic Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Akalumbol",
+                artist: "",
+                genre: "Reflective Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Eeran Kaattu",
+                artist: "",
+                genre: "Soft Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Vathilil",
+                artist: "Haricharan",
+                genre: "Soft Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Mizhiyil",
+                artist: "Shahabaz Aman",
+                genre: "Indie / Melancholic",
+                mood: "melancholy"
+            },
+            {
+                title: "Kaathirunnu Kaathirunnu",
+                artist: "",
+                genre: "Emotional Melody",
+                mood: "melancholy"
+            },
+            {
+                title: "Mounam Swaramayi",
+                artist: "",
+                genre: "Nostalgic Melody",
+                mood: "melancholy"
+            },
+
+            // Heartbreak — 20 songs
+            {
+                title: "Malare",
+                artist: "Vijay Yesudas",
+                genre: "Heartbreak Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Kanneer Poovinte",
+                artist: "M. G. Sreekumar",
+                genre: "Heartbreak Classic",
+                mood: "heartbreak"
+            },
+            {
+                title: "Varuvaanillaarume",
+                artist: "K. S. Chithra",
+                genre: "Longing / Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Ennu Varum Nee",
+                artist: "",
+                genre: "Longing Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Marakkam",
+                artist: "",
+                genre: "Heartbreak Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "En Uyire",
+                artist: "",
+                genre: "Romantic Sad",
+                mood: "heartbreak"
+            },
+            {
+                title: "Khalbhinakame",
+                artist: "",
+                genre: "Romantic Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Nilave",
+                artist: "",
+                genre: "Melancholic Pop",
+                mood: "heartbreak"
+            },
+            {
+                title: "En Jeevane",
+                artist: "",
+                genre: "Heartbreak Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Akaleyanengilum",
+                artist: "",
+                genre: "Longing Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Kathiripoo",
+                artist: "",
+                genre: "Romantic Sad",
+                mood: "heartbreak"
+            },
+            {
+                title: "Hrudaya Sakhi",
+                artist: "",
+                genre: "Heartbreak Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Manju Kaalam",
+                artist: "",
+                genre: "Romantic Sad",
+                mood: "heartbreak"
+            },
+            {
+                title: "Thaniye",
+                artist: "Sooraj Santhosh, Vishnu Vijay",
+                genre: "Indie / Heartbreak",
+                mood: "heartbreak"
+            },
+            {
+                title: "Aaradhike",
+                artist: "Sooraj Santhosh, Madhuvanthi Narayan",
+                genre: "Romantic Melody",
+                mood: "heartbreak"
+            },
+            {
+                title: "Darshana",
+                artist: "Hesham Abdul Wahab, Darshana Rajendran",
+                genre: "Romantic Pop",
+                mood: "heartbreak"
+            },
+            {
+                title: "Puthiyoru Pathayil",
+                artist: "",
+                genre: "Indie Pop",
+                mood: "heartbreak"
+            },
+            {
+                title: "Lailakame",
+                artist: "Haricharan",
+                genre: "Romantic Pop",
+                mood: "heartbreak"
+            },
+            {
+                title: "Neela Nilave",
+                artist: "Kapil Kapilan",
+                genre: "Romantic Pop",
+                mood: "heartbreak"
+            },
+            {
+                title: "Jeevamshamayi",
+                artist: "Shreya Ghoshal, Harisankar K. S.",
+                genre: "Romantic Melody",
+                mood: "heartbreak"
+            },
+
+            // Sad — 10 songs
+            {
+                title: "Poomuthole",
+                artist: "Vijay Yesudas",
+                genre: "Emotional / Family",
+                mood: "sad"
+            },
+            {
+                title: "Aatmavil",
+                artist: "",
+                genre: "Emotional Melody",
+                mood: "sad"
+            },
+            {
+                title: "Mele Mevum",
+                artist: "",
+                genre: "Soft Melody",
+                mood: "sad"
+            },
+            {
+                title: "Amme Nee Aranennu",
+                artist: "",
+                genre: "Emotional / Devotional",
+                mood: "sad"
+            },
+            {
+                title: "Gopike",
+                artist: "",
+                genre: "Nostalgic Melody",
+                mood: "sad"
+            },
+            {
+                title: "Kalippattamai",
+                artist: "",
+                genre: "Emotional Melody",
+                mood: "sad"
+            },
+            {
+                title: "Thaliraninjoru Kilimarathile",
+                artist: "",
+                genre: "Sad Melody",
+                mood: "sad"
+            },
+            {
+                title: "Mandhara Malaril",
+                artist: "",
+                genre: "Soft Melody",
+                mood: "sad"
+            },
+            {
+                title: "Neerume Kattum",
+                artist: "",
+                genre: "Melancholic Melody",
+                mood: "sad"
+            },
+            {
+                title: "Poomaname",
+                artist: "",
+                genre: "Nostalgic Melody",
+                mood: "sad"
+            }
         ],
         message: 'എന്താ മോനെ ഡിപ്രെഷൻ ആണോ...',
         color: 'linear-gradient(135deg, #1e3a8a 0%, #312e81 100%)',
@@ -168,56 +421,161 @@ export const MOOD_CONFIG = {
     },
     angry: {
         songs: [
-            { title: 'Bheeshma Parvam Theme', artist: 'Sushin Shyam' },
-            { title: 'Lucifer Theme', artist: 'Deepak Dev' },
-            { title: 'Aaraattu Theme', artist: 'Rahul Raj' },
-            { title: 'Ranam Title Track', artist: 'Jakes Bejoy' },
-            { title: 'Thee jwalakal', artist: 'Angamaly Diaries' },
-            { title: 'Manjabi', artist: 'Mass' },
-            { title: 'Rukmangadhavidhi', artist: 'Rap' },
-            { title: 'Unstoppable', artist: 'Energy' },
-            { title: 'Bheeshma Be Notorious', artist: 'Mass' },
-            { title: 'Aatuthottil', artist: 'Mass Beats' },
-            { title: 'Pokkiri Raja Theme', artist: 'Pokkiri Raja' },
-            { title: 'Pulimurugan Theme', artist: 'Pulimurugan' },
-            { title: 'Kammattipaadam Theme', artist: 'Kammattipaadam' },
-            { title: 'Shaji Pappan BGM', artist: 'Aadu 2' },
-            { title: 'Derick Abraham BGM', artist: 'Abrahaminte Santhathikal' },
-            { title: 'Anjam Pathira Theme', artist: 'Anjam Pathira' },
-            { title: 'Ayyappanum Koshiyum BGM', artist: 'Jakes Bejoy' },
-            { title: 'B Tech BGM', artist: 'Mass' },
-            { title: 'CIA Climax BGM', artist: 'Gopi Sundar' },
-            { title: 'Godha BGM', artist: 'Shaan Rahman' },
-            { title: 'Joji BGM', artist: 'Justin Varghese' },
-            { title: 'Kammara Sambavam Theme', artist: 'Gopi Sundar' },
-            { title: 'Kadavule Pole BGM', artist: 'Lucifer' },
-            { title: 'Mikhael BGM', artist: 'Gopi Sundar' },
-            { title: 'Minnal Murali Theme', artist: 'Sushin Shyam' },
-            { title: 'Rakshasi', artist: 'Nammal' },
-            { title: 'Para Para', artist: 'Angry' },
-            { title: 'Parava Revenge Theme', artist: 'Rex Vijayan' },
-            { title: 'Path of Lakshmana', artist: 'Angry' },
-            { title: 'Porinju Mariyam Jose Theme', artist: 'Jakes Bejoy' },
-            { title: 'Kalippu', artist: 'Premam' },
-            { title: 'Karinthol', artist: 'RRR' },
-            { title: 'David Nainan BGM', artist: 'The Great Father' },
-            { title: 'Tiyan Aslam Theme', artist: 'Gopi Sundar' },
-            { title: 'Varathan Red is on', artist: 'Sushin Shyam' },
-            { title: 'Yodha Theme', artist: 'A.R. Rahman' },
-            { title: 'Monster Theme', artist: 'Mass' },
-            { title: 'Christopher Theme', artist: 'Mass' },
-            { title: 'King of Kotha Theme', artist: 'Jakes Bejoy' },
-            { title: 'Kaduva Theme', artist: 'Mass' },
-            { title: 'Big B Theme', artist: 'Gopi Sundar' },
-            { title: 'Sagar Elias Jacky Theme', artist: 'Gopi Sundar' },
-            { title: 'Malik BGM', artist: 'Sushin Shyam' },
-            { title: 'Trance BGM', artist: 'Jackson Vijayan' },
-            { title: 'Kurup Theme', artist: 'Sushin Shyam' },
-            { title: 'Salute Theme', artist: 'Jakes Bejoy' },
-            { title: 'CBI 5 Theme', artist: 'Jakes Bejoy' },
-            { title: 'Jana Gana Mana Theme', artist: 'Jakes Bejoy' },
-            { title: 'Fish Rock', artist: 'Thaikkudam Bridge' },
-            { title: 'Navarasam', artist: 'Thaikkudam Bridge' },
+            // Angry — rage, confrontation, aggressive energy
+            {
+                title: "Kalippu",
+                artist: "Murali Gopy, Shabareesh Varma",
+                genre: "Aggressive Rock / Soundtrack",
+                mood: "angry"
+            },
+            {
+                title: "Para Para",
+                artist: "Anoop Mohandas",
+                genre: "Aggressive Soundtrack",
+                mood: "angry"
+            },
+            {
+                title: "Mathapithakkale",
+                artist: "Sushin Shyam",
+                genre: "Dark / Experimental",
+                mood: "angry"
+            },
+            {
+                title: "Adholokam",
+                artist: "Vipin Raveendran",
+                genre: "Dark / Action Soundtrack",
+                mood: "angry"
+            },
+            {
+                title: "Kuthanthram",
+                artist: "Vedan",
+                genre: "Rap / Hip-Hop",
+                mood: "angry"
+            },
+            {
+                title: "The War Cry",
+                artist: "Dabzee, Dopameen3",
+                genre: "Aggressive Rap / Action",
+                mood: "angry"
+            },
+            {
+                title: "Habibi Drip",
+                artist: "Dabzee",
+                genre: "Rap / Hip-Hop",
+                mood: "angry"
+            },
+            {
+                title: "Ballaatha Jaathi",
+                artist: "NJ, Rzee",
+                genre: "Rap / Hip-Hop",
+                mood: "angry"
+            },
+            {
+                title: "Durga",
+                artist: "Rzee",
+                genre: "Aggressive Rap",
+                mood: "angry"
+            },
+            {
+                title: "Manavalan Thug",
+                artist: "Dabzee, SA",
+                genre: "Rap / Mass",
+                mood: "angry"
+            },
+
+            // Rough — gritty rock, raw vocals, rebellious energy
+            {
+                title: "Fish Rock",
+                artist: "Thaikkudam Bridge",
+                genre: "Hard Rock",
+                mood: "rough"
+            },
+            {
+                title: "Urumbu",
+                artist: "Thaikkudam Bridge",
+                genre: "Alternative Rock",
+                mood: "rough"
+            },
+            {
+                title: "Navarasam",
+                artist: "Thaikkudam Bridge",
+                genre: "Progressive Rock",
+                mood: "rough"
+            },
+            {
+                title: "Aarachar",
+                artist: "Thaikkudam Bridge",
+                genre: "Progressive Rock",
+                mood: "rough"
+            },
+            {
+                title: "Chathe",
+                artist: "Thaikkudam Bridge",
+                genre: "Rock",
+                mood: "rough"
+            },
+            {
+                title: "Nada Nada",
+                artist: "Avial",
+                genre: "Alternative Rock",
+                mood: "rough"
+            },
+            {
+                title: "Ettam Pattu",
+                artist: "Avial",
+                genre: "Alternative Rock",
+                mood: "rough"
+            },
+            {
+                title: "Aadu Pambe",
+                artist: "Avial",
+                genre: "Alternative Rock",
+                mood: "rough"
+            },
+            {
+                title: "Aranda",
+                artist: "Avial",
+                genre: "Alternative Rock",
+                mood: "rough"
+            },
+            {
+                title: "Karukara",
+                artist: "Avial",
+                genre: "Alternative Rock",
+                mood: "rough"
+            },
+
+            // Mass / intense — powerful beats and action energy
+            {
+                title: "Illuminati",
+                artist: "Dabzee, Sushin Shyam",
+                genre: "Rap / Mass",
+                mood: "angry"
+            },
+            {
+                title: "Galatta",
+                artist: "Sushin Shyam",
+                genre: "Electronic / Mass",
+                mood: "angry"
+            },
+            {
+                title: "Jaada",
+                artist: "Sreenath Bhasi",
+                genre: "Rap / Hip-Hop",
+                mood: "rough"
+            },
+            {
+                title: "Kannil Pettole",
+                artist: "Irfana Hameed, Vishnu Vijay",
+                genre: "Rap / Hip-Hop",
+                mood: "angry"
+            },
+            {
+                title: "The Devil's Arrival",
+                artist: "Anand Sreeraj",
+                genre: "Dark / Action Soundtrack",
+                mood: "angry"
+            }
         ],
         message: 'ഉഫ് നീ സീൻ ആട ഉവ്വേ!!',
         color: 'linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)',
@@ -225,53 +583,157 @@ export const MOOD_CONFIG = {
     },
     surprised: {
         songs: [
-            { title: 'Thattassery Koottam', artist: 'Upbeat' },
-            { title: 'Chinnu Chinnu', artist: 'Ramji Rao Speaking' },
-            { title: 'Aasa Kooda (Surprise Mix)', artist: 'Surprise Mix' },
-            { title: 'Thara-dhritha-pulakithan', artist: 'Upbeat' },
-            { title: 'Mera Naam Shaji Theme', artist: 'Fun' },
-            { title: 'Oru Naal', artist: 'Big B' },
-            { title: 'Chundari Penne', artist: 'Charlie' },
-            { title: 'Ethrayo Janmamayi (Surprise Remix)', artist: 'Surprise Remix' },
-            { title: 'Kilukil Pambaram', artist: 'Kilukkam' },
-            { title: 'Chandanamani Vaathil (Electronic)', artist: 'Electronic' },
-            { title: 'Sundari (Remix)', artist: 'Remix' },
-            { title: 'Pavizhamalli (Upbeat)', artist: 'Upbeat' },
-            { title: 'Karutha Penne (Trap Mix)', artist: 'Trap Mix' },
-            { title: 'Shinkari Melam (Electronic)', artist: 'Electronic' },
-            { title: 'Parande (Upbeat)', artist: 'Upbeat' },
-            { title: 'Oru Maura Mix', artist: 'Fun' },
-            { title: 'Chill Chill (Electronic)', artist: 'Electronic' },
-            { title: 'Vathikkalu Vellaripravu (Upbeat)', artist: 'Upbeat' },
-            { title: 'Kalakkatha', artist: 'Ayyappanum Koshiyum' },
-            { title: 'Malare (Trap)', artist: 'Trap' },
-            { title: 'Premam BGM (Electronic)', artist: 'Electronic' },
-            { title: 'Hey Pillagaada (Mix)', artist: 'Mix' },
-            { title: 'Aalolam (Mix)', artist: 'Mix' },
-            { title: 'Chirakukal (Mix)', artist: 'Mix' },
-            { title: 'Maane (Mix)', artist: 'Mix' },
-            { title: 'Thallumaala Anthem', artist: 'Thallumaala' },
-            { title: 'Romancham BGM', artist: 'Sushin Shyam' },
-            { title: 'Falimy BGM', artist: 'Vishnu Vijay' },
-            { title: 'Rdx Theme', artist: 'Sam C.S.' },
-            { title: 'King of Kotha (Electronic)', artist: 'Electronic' },
-            { title: 'Band Theme', artist: 'Hridayam' },
-            { title: 'Onakka Munthiri', artist: 'Hridayam' },
-            { title: 'Darshana (Upbeat)', artist: 'Upbeat' },
-            { title: 'Manavalan Thug', artist: 'Thallumaala' },
-            { title: 'Kaithapoo (Mix)', artist: 'Mix' },
-            { title: 'Vazhiye (Mix)', artist: 'Mix' },
-            { title: 'Uyire (Electronic)', artist: 'Electronic' },
-            { title: 'Nee (Surprise)', artist: 'Surprise' },
-            { title: 'Pathu Kalpanakal (Mix)', artist: 'Mix' },
-            { title: 'Minnal Theme', artist: 'Minnal Murali' },
-            { title: 'Kabilane', artist: 'Mix' },
-            { title: 'Manthra', artist: 'Mix' },
-            { title: 'Oorila Oru', artist: 'Mix' },
-            { title: 'Tharikida', artist: 'Mix' },
-            { title: 'Electronic Vibes', artist: 'Mix' },
-            { title: 'Funky Malayali', artist: 'Mix' },
-            { title: 'Beat It', artist: 'Mix' },
+            // Surprise — quirky, unexpected, experimental
+            {
+                title: "Thetti",
+                artist: "Neeraj Remesh",
+                genre: "Experimental / Quirky",
+                mood: "surprise"
+            },
+            {
+                title: "Seythaante Cheytha",
+                artist: "Vaikom Vijayalakshmi, Pradeep Palluruthy",
+                genre: "Retro / Quirky",
+                mood: "surprise"
+            },
+            {
+                title: "Fish Rock",
+                artist: "Thaikkudam Bridge",
+                genre: "Experimental Rock",
+                mood: "surprise"
+            },
+            {
+                title: "Navarasam",
+                artist: "Thaikkudam Bridge",
+                genre: "Progressive Rock / Fusion",
+                mood: "surprise"
+            },
+            {
+                title: "Aarachar",
+                artist: "Thaikkudam Bridge",
+                genre: "Progressive Rock",
+                mood: "surprise"
+            },
+            {
+                title: "Urumbu",
+                artist: "Thaikkudam Bridge",
+                genre: "Alternative Rock",
+                mood: "surprise"
+            },
+            {
+                title: "Chekele",
+                artist: "Avial",
+                genre: "Alternative Rock / Folk",
+                mood: "surprise"
+            },
+            {
+                title: "Karukara",
+                artist: "Avial",
+                genre: "Alternative Rock",
+                mood: "surprise"
+            },
+            {
+                title: "Aadu Pambe",
+                artist: "Avial",
+                genre: "Folk Rock",
+                mood: "surprise"
+            },
+            {
+                title: "Kummati",
+                artist: "6091",
+                genre: "Experimental Indie",
+                mood: "surprise"
+            },
+            {
+                title: "Kalapila",
+                artist: "Street Academics",
+                genre: "Hip-Hop / Experimental",
+                mood: "surprise"
+            },
+            {
+                title: "Puttu Paattu",
+                artist: "Thakara",
+                genre: "Quirky Indie",
+                mood: "surprise"
+            },
+            {
+                title: "GVQ",
+                artist: "Thakara",
+                genre: "Experimental Indie",
+                mood: "surprise"
+            },
+            {
+                title: "Koothu over Coffee",
+                artist: "Agam",
+                genre: "Progressive Fusion",
+                mood: "surprise"
+            },
+            {
+                title: "Manavyalakinchara (Mist of Capricorn)",
+                artist: "Agam",
+                genre: "Carnatic Progressive Rock",
+                mood: "surprise"
+            },
+            {
+                title: "The Celestial Nymph (Manassi Dussaham)",
+                artist: "Agam",
+                genre: "Progressive Fusion",
+                mood: "surprise"
+            },
+            {
+                title: "MoFunk",
+                artist: "Advaita",
+                genre: "Funk / Fusion",
+                mood: "surprise"
+            },
+            {
+                title: "The Unexpected",
+                artist: "Rahul Raj",
+                genre: "Cinematic / Experimental",
+                mood: "surprise"
+            },
+            {
+                title: "The Shadow of Death",
+                artist: "Justin Varghese",
+                genre: "Dark Cinematic",
+                mood: "surprise"
+            },
+            {
+                title: "The Beginning",
+                artist: "Christo Xavier, Atheena",
+                genre: "Dark / Experimental Soundtrack",
+                mood: "surprise"
+            },
+            {
+                title: "Jathikathottam",
+                artist: "Shaan Rahman, Vineeth Sreenivasan",
+                genre: "Quirky Folk Pop",
+                mood: "surprise"
+            },
+            {
+                title: "Ashubha Mangalakari",
+                artist: "Justin Varghese",
+                genre: "Quirky / Experimental",
+                mood: "surprise"
+            },
+            {
+                title: "Vazhkai",
+                artist: "Justin Varghese",
+                genre: "Experimental / Indie",
+                mood: "surprise"
+            },
+            {
+                title: "Krodham",
+                artist: "Down to Earth",
+                genre: "Folk Rock",
+                mood: "surprise"
+            },
+            {
+                title: "Appozhum Paranjile",
+                artist: "Thaikkudam Bridge",
+                genre: "Folk / Experimental Fusion",
+                mood: "surprise"
+            }
         ],
         message: 'അട ഗോമ്മലെ!!',
         color: 'linear-gradient(135deg, #7c3aed 0%, #db2777 100%)',
@@ -279,56 +741,63 @@ export const MOOD_CONFIG = {
     },
     neutral: {
         songs: [
-            { title: 'Thoraathe', artist: 'Nitin K Siva' },
-            { title: 'Pinneyum Pinneyum', artist: 'Krishnagudiyil Oru Pranayakalathu' },
-            { title: 'Vathilil', artist: 'Ustad Hotel' },
-            { title: 'Eeran Kaattu', artist: 'January Oru Orma' },
-            { title: 'Ethra Neramaayi', artist: 'Chill Mix' },
-            { title: 'Sundari', artist: 'Hebah' },
-            { title: 'Mizhiyil Mayanhadhi', artist: 'Chill' },
-            { title: 'Pavizha Mazhaye', artist: 'Athiran' },
-            { title: 'Pranayam', artist: 'Relax' },
-            { title: 'Olichirikkaan Vallikkudilonnu', artist: 'Aramana Vettile Athidikal' },
-            { title: 'Oru Kari Mukilin', artist: 'Vettam' },
-            { title: 'Kaathirunnu Kaathirunnu', artist: 'Ennu Ninte Moideen' },
-            { title: 'Mounam Swaramayi', artist: 'Aayushkalam' },
-            { title: 'KAAYI', artist: 'Baby Jean' },
-            { title: 'Kannodu (Live)', artist: 'Job Kurian' },
-            { title: 'Kaanan Thonnununde', artist: 'Siddharth Menon' },
-            { title: 'Chekuthan', artist: 'Nihal Sadiq' },
-            { title: 'La Vida', artist: 'Dabzee' },
-            { title: 'Ajitha Hare', artist: 'Gowry Lekshmi' },
-            { title: 'Open Your Wings', artist: 'MC Mushti' },
-            { title: 'Khalbum Katti', artist: 'Dabzee' },
-            { title: 'Panipaali-2', artist: 'NJ' },
-            { title: 'Veyil', artist: 'Aromal Chekaver' },
-            { title: 'PANIPAALI', artist: 'NJ' },
-            { title: 'Chekele', artist: 'Avial' },
-            { title: 'Naadan Vibe', artist: 'Indie' },
-            { title: 'Jaana Mere Jaana', artist: 'Dabzee' },
-            { title: 'Nada Nada', artist: 'Avial' },
-            { title: 'Thaalam', artist: 'Indie' },
-            { title: 'Khalbhinte Theerath', artist: 'Indie' },
-            { title: 'Parayuvaitharuvan', artist: 'Neelakasham Pachakadal Chuvanna Bhoomi' },
-            { title: 'Uyiril Thodu', artist: 'Kumbalangi Nights' },
-            { title: 'Aaradhike', artist: 'Ambili' },
-            { title: 'Jeevamshamayi', artist: 'Theevandi' },
-            { title: 'Mizhiyil (Chill)', artist: 'Maya' },
-            { title: 'Neeyum Njanum', artist: 'Chill' },
-            { title: 'Oru Rathri Koodi', artist: 'Summer in Bethlehem' },
-            { title: 'Vennila Chandana Kinnam', artist: 'Azakiya Ravanan' },
-            { title: 'Thumbayum Thulasiyum', artist: 'Chill' },
-            { title: 'Swapnam', artist: 'Chill' },
-            { title: 'Nizhal', artist: 'Chill' },
-            { title: 'Kaatrin Mozi', artist: 'Chill' },
-            { title: 'Mazhaye', artist: 'Indie' },
-            { title: 'Puthumazhayai', artist: 'Charlie' },
-            { title: 'Vadakkudikkiloru', artist: 'Meppadiyan' },
-            { title: 'Raaman Thedum', artist: 'Ramante Edanthottam' },
-            { title: 'Oru Swapnam Pole', artist: 'Swapnam' },
-            { title: 'Chill Out', artist: 'Mix' },
-            { title: 'Late Night Loft', artist: 'Indie' },
-            { title: 'Indie Vibe', artist: 'Indie' },
+            // Neutral — Malayalam instrumental / mellow tracks
+            { title: "Maveli", artist: "K. L. Sreeram", genre: "Kerala Instrumental", mood: "neutral" },
+            { title: "Vadakkanpattu", artist: "K. L. Sreeram", genre: "Folk Instrumental", mood: "neutral" },
+            { title: "Kerala Folk", artist: "K. L. Sreeram", genre: "Folk Instrumental", mood: "neutral" },
+            { title: "Vallomkali", artist: "K. L. Sreeram", genre: "Folk Instrumental", mood: "neutral" },
+            { title: "Panchavadyam", artist: "K. L. Sreeram", genre: "Traditional Instrumental", mood: "neutral" },
+            { title: "Techimandaram", artist: "K. L. Sreeram", genre: "Traditional Instrumental", mood: "neutral" },
+            { title: "Kanyamariam", artist: "K. L. Sreeram", genre: "Instrumental", mood: "neutral" },
+            { title: "Oppanapattu", artist: "K. L. Sreeram", genre: "Folk Instrumental", mood: "neutral" },
+            { title: "Kaikottikali", artist: "K. L. Sreeram", genre: "Traditional Instrumental", mood: "neutral" },
+            { title: "Harivarasanam (Instrumental)", artist: "Ranjin Raj", genre: "Instrumental", mood: "neutral" },
+
+            // Instrumental film covers
+            { title: "Pattil Ee Pattil (Instrumental)", artist: "Sreeram Gokul", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Swapnam Oru Chak (Instrumental)", artist: "Vaikom Vijayalakshmi", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Cham Cham (Instrumental)", artist: "C. S. Balasankar", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Kaatte Kaatte (Instrumental)", artist: "Vaikom Vijayalakshmi", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Aliyarude Omana Beevi (Instrumental)", artist: "Sharan Appus", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Thamapookavanathil (Instrumental)", artist: "Vaikom Vijayalakshmi", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Mazhathulli Palunkukal (Instrumental)", artist: "S. A. Swamy", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Naattumaviloru (Instrumental)", artist: "Vaikom Vijayalakshmi", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Premikkumbol (Instrumental)", artist: "Gautham Dravid", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Karukarekaruthoru (Instrumental)", artist: "Sharan Appus", genre: "Film Instrumental", mood: "neutral" },
+
+            // Mellow Malayalam lo-fi
+            { title: "Neela Nilave - Rainy Lofi", artist: "The Independeners, Kapil Kapilan", genre: "Lo-fi", mood: "neutral" },
+            { title: "Pakaliravukal - Lofi", artist: "Ajx, Neha Nair", genre: "Lo-fi", mood: "neutral" },
+            { title: "Kiliye Kiliye - Lofi", artist: "Alvin Bruno, S. Janaki", genre: "Lo-fi", mood: "neutral" },
+            { title: "Jupiter Mazha (Lofi Flip)", artist: "blu sonic, Sruthi", genre: "Lo-fi", mood: "neutral" },
+            { title: "Neelavana Cholayil - Ambient Lofi", artist: "Aelo, K. J. Yesudas, Gangai Amaran", genre: "Ambient Lo-fi", mood: "neutral" },
+            { title: "Muthuchippi (Lofi)", artist: "Chris Wayne, Shaan Rahman, Sachin Warrier, Ramya Nambessan", genre: "Lo-fi", mood: "neutral" },
+            { title: "Payye Veesum (Lofi)", artist: "Chris Wayne, Sachin Warrier, Ashwin Gopakumar, Sneha Warrier", genre: "Lo-fi", mood: "neutral" },
+            { title: "Oru Pushpam Mathram - Lofi Cover", artist: "Akshay Nath M. S., Christy Aby Varghese", genre: "Lo-fi Cover", mood: "neutral" },
+            { title: "Mizhiyoram - Ambient Lofi", artist: "Chris Wayne, S. Janaki", genre: "Ambient Lo-fi", mood: "neutral" },
+            { title: "K For Krishna - Lofi", artist: "The Independeners, Aju Varghese", genre: "Lo-fi", mood: "neutral" },
+            { title: "Nee Madhu Pakaru - Sleep Lofi", artist: "EternaLove, K. J. Yesudas", genre: "Sleep Lo-fi", mood: "neutral" },
+            { title: "Aadivaa Kaatte - Chill Lofi", artist: "Ajx, S. Janaki", genre: "Chill Lo-fi", mood: "neutral" },
+            { title: "Ormakal Verodum (Lofi)", artist: "", genre: "Lo-fi", mood: "neutral" },
+            { title: "Ottamuri Vakkumayi - Lofi", artist: "Phèno, Pradeep Kumar", genre: "Lo-fi", mood: "neutral" },
+            { title: "Alliyambal Kadavil - Ambient Lofi", artist: "Joyal MJ, K. J. Yesudas", genre: "Ambient Lo-fi", mood: "neutral" },
+            { title: "Anuragaganam Pole - Lofi Chill", artist: "Alvin Bruno, P. Jayachandran", genre: "Chill Lo-fi", mood: "neutral" },
+            { title: "Sita Kalyana - Ambient Lofi", artist: "Aelo, Akhila Anand, Akhil J. Chand, Jakes Bejoy", genre: "Ambient Lo-fi", mood: "neutral" },
+            { title: "Doore Oru Mukilin - Chill Lofi Mix", artist: "Kael Produced, Charles Simon, Hesham Abdul Wahab, SMXI", genre: "Chill Lo-fi", mood: "neutral" },
+            { title: "Ente Swapnathin - Ambient Lofi", artist: "Aelo, K. J. Yesudas", genre: "Ambient Lo-fi", mood: "neutral" },
+            { title: "Ponnin Kanikkonna Wow Song (Lofi)", artist: "", genre: "Lo-fi", mood: "neutral" },
+
+            // More instrumental / low-intensity options
+            { title: "Ganapathi Thunayaruluka (Instrumental)", artist: "Ranjin Raj", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Ambadi Thumbi (Instrumental)", artist: "Ranjin Raj", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Nangeli Poove (Instrumental)", artist: "Ranjin Raj", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Onnam Padi Mele (Instrumental)", artist: "Ranjin Raj", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Kannadi Kavilathu (Instrumental Version)", artist: "", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Muhabathin Athar (Instrumental Version)", artist: "", genre: "Film Instrumental", mood: "neutral" },
+            { title: "Violin Duo", artist: "", genre: "Instrumental", mood: "neutral" },
+            { title: "Maya Murali (Instrumental)", artist: "", genre: "Instrumental", mood: "neutral" },
+            { title: "Musical Wind", artist: "", genre: "Instrumental", mood: "neutral" },
+            { title: "Veena Gaanam", artist: "", genre: "Veena Instrumental", mood: "neutral" }
         ],
         message: 'നീയാരാ  ഫ്രണ്ട്‌സ് ഫിലിമിലെ ജയറാമോ??',
         color: 'linear-gradient(135deg, #10b981 0%, #06b6d4 100%)',
